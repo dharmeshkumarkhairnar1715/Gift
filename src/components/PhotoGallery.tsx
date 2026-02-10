@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { Heart, Image } from 'lucide-react';
-import myImage1 from "../assets/img1.jpg";
-import myImage2 from "../assets/img2.jpg";
-import myImage3 from "../assets/img3.jpg";
+import myImage1 from "../assets/img1.png";
+import myImage2 from "../assets/img2.png";
+import myImage3 from "../assets/img3.png";
 
 interface PhotoGalleryProps {
   onComplete: () => void;
